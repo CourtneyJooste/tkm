@@ -191,7 +191,8 @@ h1, h2, h3
 	    height:600px;
 	    background-repeat:   no-repeat;
 
-	background-position: center center;  
+	background-position: center center; 
+max-height:100vh;
 
 }
 .fullwidth
