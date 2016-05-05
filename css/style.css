@@ -54,19 +54,19 @@ body
 
 ::selection
 {
-	background: #149077;
+	background: #e00000;
 	color: #FFF;
 }
 
 ::-moz-selection
 {
-	background: #149077;
+	background: #e00000;
 	color: #FFF;
 }
 
 a
 {
-	color: #16A085;
+	color: #e00000;
 	text-decoration: none;
 }
 
@@ -122,12 +122,12 @@ h1, h2, h3
 
 .colour1
 {
-	background: #16A085;
+	background: #bd0000;
 }
 
 .colour2
 {
-	background: #1ABC9C;
+	background: #e00000;
 }
 
 .colour3
@@ -166,13 +166,13 @@ h1, h2, h3
 		}
 		
 		.arrow-theme:after
-		{
-			border-color: #16A085 rgba(22,160,133,0) rgba(22,160,133,0) rgba(22,160,133,0);
+		{    
+			border-color: #bd0000 rgba(22,160,133,0) rgba(22,160,133,0) rgba(22,160,133,0);
 		}
 		
 		.arrow-themelight:after
-		{
-			border-color: #1ABC9C rgba(26,188,156,0) rgba(26,188,156,0) rgba(26,188,156,0);
+		{    
+			border-color: #e00000 rgba(26,188,156,0) rgba(26,188,156,0) rgba(26,188,156,0);
 		}
 
 		.arrow-grey:after
@@ -184,6 +184,16 @@ h1, h2, h3
    General Layout Styles
 ================================================== */
 
+
+.topcontainerback{
+		background-image:url('../images/tkm.jpg');
+	    background-size:     contain;                      /* <------ */
+	    height:600px;
+	    background-repeat:   no-repeat;
+
+	background-position: center center;  
+
+}
 .fullwidth
 {
 	width: 100%;
@@ -198,6 +208,8 @@ h1, h2, h3
 		max-width: 1000px;
 		text-align: center;
 	}
+
+
 	
 #topcontainer
 {
@@ -209,8 +221,8 @@ h1, h2, h3
 		padding: 6px 0 10px 0;
 		margin-bottom: 0;
 		letter-spacing: -1.5px;
-		color: #444;
-		font-weight: 400;
+		color: #e00000;
+		font-weight: 300;
 	}
 	
 		#topcontainer h1 span
@@ -218,20 +230,20 @@ h1, h2, h3
 			font-size: 70px;
 			line-height: 70px;
 			letter-spacing: -1.4px;
-			font-weight: 300;
+			font-weight: 600;
 		}
 
 	#topcontainer p
 	{
 		margin-bottom: 0;
-		color: #999;
+		color: #bd0000;
 	}
 
 	#topcontainer p span
 	{
 		font-size: 90px;
 		line-height: 90px;
-		color: #1abc9c;
+		color: #e00000;
 	}
 	
 #countdown
@@ -371,7 +383,7 @@ h1, h2, h3
 			
 				button.formbutton:hover
 				{
-					background: #149077;
+					background: #e00000;
 				}
 			
 #quotecont
@@ -387,7 +399,7 @@ h1, h2, h3
 		#quotecont .owl-theme .owl-controls .owl-page.active span,
 		#quotecont .owl-theme .owl-controls.clickable .owl-page:hover span
 		{
-			background: #1ABC9C;
+			background: #e00000;
 		}
 
 #footercont
@@ -416,7 +428,7 @@ h1, h2, h3
 		
 			#footercont #socialmedia ul li a:hover
 			{
-				color: #1ABC9C;
+				color: #e00000;
 			}
 			
 	#footercont p.backtotop
@@ -441,7 +453,7 @@ h1, h2, h3
 		
 			#footercont p.backtotop a:hover
 			{
-				background-color: #1ABC9C;
+				background-color: #e00000;
 				color: #FFF;
 				text-decoration: none;
 			}
@@ -589,3 +601,7 @@ h1, h2, h3
 	
 }
 
+.footer-img{
+	height:35px;
+	width:auto;
+}
